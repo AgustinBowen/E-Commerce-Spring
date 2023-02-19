@@ -19,7 +19,7 @@ public class Usuario {
 	private String username;
 	private String email;
 	private String direccion;
-	private Long telefono;
+	private Integer telefono;
 	private String tipo;
 	private String password;
 	
@@ -33,7 +33,7 @@ public class Usuario {
 
 	}
 	
-	public Usuario(Integer id, String nombre, String username, String email, String direccion, Long telefono,
+	public Usuario(Integer id, String nombre, String username, String email, String direccion, Integer telefono,
 			String tipo, String password) {
 		this.id = id;
 		this.nombre = nombre;
@@ -75,10 +75,10 @@ public class Usuario {
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
 	}
-	public Long getTelefono() {
+	public Integer getTelefono() {
 		return telefono;
 	}
-	public void setTelefono(Long telefono) {
+	public void setTelefono(Integer telefono) {
 		this.telefono = telefono;
 	}
 	public String getTipo() {
