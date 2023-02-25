@@ -55,6 +55,7 @@ public class UsuarioController {
 			}
 		}else {
 			logger.info("Usuario no existe");
+			
 		}
 		
 		return "redirect:/";
