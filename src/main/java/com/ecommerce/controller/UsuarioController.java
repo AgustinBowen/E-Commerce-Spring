@@ -32,4 +32,9 @@ public class UsuarioController {
 		
 		return "redirect:/";
 	}
+	
+	@GetMapping("/login")
+	public String login() {
+		return "usuario/login";
+	}
 }
